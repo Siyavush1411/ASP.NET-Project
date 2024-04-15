@@ -8,4 +8,5 @@ public class Location : BaseEntity
     public string Longitude { get; set; }
     public string Latitude { get; set; }
     public bool IsActive { get; set; }
+    
 }

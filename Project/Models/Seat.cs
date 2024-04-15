@@ -8,5 +8,4 @@ public class Seat : BaseEntity
     public bool IsBusy { get; set; }
     public Guid LocationId { get; set; }
     public Location? Location { get; set; }
-
 }

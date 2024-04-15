@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Common.BaseEntities;
+using Domain.Enums;
 
 namespace Domain.Models
 {
-    internal class Participant
+    public class Participant
     {
+        public string Username { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string MiddleName { get; set; }
+        public string Position { get; set; }
+        public ContactInformation? ContactInformation { get; set; }
+        public bool IsActive { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Infrastructure.Models; // Замените YourNamespace на вашу namespace
+using Infrastructure.Models; /
 
-namespace Infrastructure.Data.Configurations // Замените YourNamespace на вашу namespace
+namespace Infrastructure.Data.Configurations 
 {
     public class ContactInformationConfiguration : IEntityTypeConfiguration<ContactInformation>
     {

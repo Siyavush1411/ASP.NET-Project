@@ -8,4 +8,5 @@ public class ContactInformation
     public string? Telegram { get; set; }
     public string? Instagram { get; set; }
     public string? Facebook { get; set; }
+    
 }

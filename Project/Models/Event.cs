@@ -12,7 +12,7 @@ public class Event : BaseEntity
     public Guid LocationId { get; set; }
     public EventCategory Category { get; set; }
     public Location? Location { get; set; }
-    
+
     public ICollection<Participant>? Participants { get; set; }
     public ICollection<Organizer>? Organizers { get; set; }
 }

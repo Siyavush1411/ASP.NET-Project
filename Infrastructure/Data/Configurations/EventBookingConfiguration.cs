@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Infrastructure.Models; // замените YourNamespace на вашу namespace
+using Infrastructure.Models; 
 
-namespace Infrastructure.Data.Configurations // замените YourNamespace на вашу namespace
+namespace Infrastructure.Data.Configurations 
 {
 	public class EventBookingConfiguration : IEntityTypeConfiguration<EventBooking>
 	{
